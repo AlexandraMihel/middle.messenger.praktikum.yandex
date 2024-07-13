@@ -1,5 +1,6 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
+// eslint-disable-next-line import/no-extraneous-dependencies
 
 export default defineConfig({
-  // тут пишем всякие настройки
-}) 
+
+});

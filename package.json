@@ -1,19 +1,24 @@
 {
-  "name": "middle.messenger.praktikum.yandex",
-  "version": "1.0.0",
-  "description": "### Откройте pull request в ветку main из ветки, где вы разрабатывали проект, и добавьте ссылку на этот pr в README.md в ветке main.  ### ВАЖНО: pull request должен называться “Sprint i” (i — номер спринта).",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+  "name": "messenger",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "start": "npm run build && node server.js",
+    "dev": "vite --port 3000 --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
-    "vite": "^5.3.3"
+    "express": "^4.19.2",
+    "sass": "^1.68.0",
+    "vite": "^4.4.5"
   },
   "dependencies": {
-    "handlebars": "^4.7.8"
+    "handlebars": "^4.7.8",
+    "path": "^0.12.7"
   }
 }

@@ -1,0 +1,13 @@
+.profile_user {
+    &-avatar {
+        margin-bottom: 30px;
+    }
+  
+    &-avatar-img {
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        border: 2px solid var(--color-accent);
+        box-shadow: 0px 4px 16px 0px var(--color-accent);
+    }
+}
