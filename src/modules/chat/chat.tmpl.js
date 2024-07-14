@@ -13,9 +13,7 @@ export const tmpl = `
                             <li class="chats_item">
                                 <div class="chats_item_block">
                                     <div class="chats_item-info">
-                                    <div class="chats_item-avatar">
-                                        <img width="60px" height="60px" src="../../../static/img/user3.png" alt="Аватар чата" class="avatar">
-                                    </div>
+                                    {{{avatarchat}}}
                                     <div class="chats_info-message">
                                         <div class="chats_item-name">
                                             Иван Иванов
@@ -35,9 +33,7 @@ export const tmpl = `
                             <li class="chats_item active">
                                 <div class="chats_item_block">
                                     <div class="chats_item-info">
-                                    <div class="chats_item-avatar">
-                                        <img width="60px" height="60px" src="../../../static/img/user3.png" alt="Аватар чата" class="avatar">
-                                    </div>
+                                    {{{avatarchat}}}
                                     <div class="chats_info-message">
                                         <div class="chats_item-name">
                                             Иван Иванов
@@ -57,9 +53,7 @@ export const tmpl = `
                             <li class="chats_item">
                                 <div class="chats_item_block">
                                     <div class="chats_item-info">
-                                    <div class="chats_item-avatar">
-                                        <img width="60px" height="60px" src="../../../static/img/user3.png" alt="Аватар чата" class="avatar">
-                                    </div>
+                                    {{{avatarchat}}}
                                     <div class="chats_info-message">
                                         <div class="chats_item-name">
                                             Иван Иванов
@@ -87,9 +81,7 @@ export const tmpl = `
                     <div class="chats_right_message">
                         <div class="chats_right-top">
                                 <div class="chat_top-info_wrap">
-                                <div class="chats_item-avatar">
-                                    <img width="60px" height="60px" src="../../../static/img/user3.png" alt="Аватар чата" class="avatar">
-                                </div>
+                                {{{avatarchat}}}
                                 <h2>Иван Иванов</h2>
                                 </div>
                                 <div class="chat_top-info_btn">
