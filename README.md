@@ -25,4 +25,8 @@
 ---
 
 * [Макет в Figma] https://www.figma.com/design/tGOWawPOlqsvbmr7i7SUwz/Chat_external_link-(Copy)?node-id=0-1&t=0oODeExdFgfEJeV3-1
+<<<<<<< HEAD
 * [Деплой на Netlify] https://sprint-1--celebrated-heliotrope-7b6aa4.netlify.app
+=======
+* [Деплой на Netlify] https://sprint-1--celebrated-heliotrope-7b6aa4.netlify.app
+>>>>>>> main
