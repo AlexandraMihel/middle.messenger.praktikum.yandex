@@ -1,6 +1,13 @@
 import { defineConfig } from 'vite';
-// eslint-disable-next-line import/no-extraneous-dependencies
 
 export default defineConfig({
+  server: {
+    port: 3000,
+  },
 
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
 });
